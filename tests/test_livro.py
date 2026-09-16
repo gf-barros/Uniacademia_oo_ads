@@ -3,12 +3,12 @@ from codigo.livro import Livro
 def test_abrir():
     livro = Livro()
     livro.abrir()
-    assert livro.get_livro_aberto == True
+    assert livro.get_livro_aberto() == True
 
 def test_fechar():
     livro = Livro()
     livro.fechar()
-    assert livro.get_livro_aberto == False
+    assert livro.get_livro_aberto() == False
 
 def test_marcar_pagina():
     livro = Livro()
