@@ -1,0 +1,3 @@
+.pytest_cache
+codigo/__pycache__
+tests/__pycache__
